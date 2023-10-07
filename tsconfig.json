@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"target": "es2018",
+		"module": "commonjs",
+		"outDir": "dist",
+		"noImplicitAny": true,
+		"strictNullChecks": false,
+		"esModuleInterop": true,
+		"sourceMap": true
+	},
+	"exclude": ["src/**/*.spec.ts"]
+}

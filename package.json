@@ -1,0 +1,28 @@
+{
+	"name": "sju-gym-register",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"zip": "tsc && 7z a -r function.zip ./dist/*  node_modules/",
+		"deploy": "npm run zip && aws s3 cp function.zip s3://gym-register && aws lambda update-function-code --function-name puppeteer-on-lambda --s3-bucket gym-register --s3-key function.zip",
+		"run:local": "node run-local.js"
+	},
+	"author": "James Worden",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^14.14.13",
+		"@types/puppeteer": "^5.4.2",
+		"@types/uuid": "^8.3.4",
+		"puppeteer": "^10.0.0",
+		"7zip": "^0.0.6",
+		"typescript": "^4.1.3"
+	},
+	"dependencies": {
+		"@aws-sdk/client-pinpoint": "^3.47.1",
+		"@aws-sdk/client-s3": "^3.48.0",
+		"chrome-aws-lambda": "^10.0.0",
+		"puppeteer-core": "^10.0.0",
+		"uuid": "^8.3.2"
+	}
+}
