@@ -1,0 +1,76 @@
+{
+	"processes": [
+		{
+			"member": {
+				"firstName": "James",
+				"lastName": "Worden",
+				"xNumber": "😬",
+				"email": "james.worden18@my.stjohns.edu",
+				"phone": "😬",
+				"schedule": {
+					"SUNDAY": "1:10pm - 2:10pm",
+					"MONDAY": "8:00am - 9:00am",
+					"TUESDAY": "1:00pm - 2:00pm",
+					"WEDNESDAY": "8:30pm - 9:30pm",
+					"THURSDAY": "8:30pm - 9:30pm",
+					"FRIDAY": "8:00am - 9:00am",
+					"SATURDAY": "1:10pm - 2:10pm"
+				}
+			}
+		},
+		{
+			"member": {
+				"firstName": "Noah",
+				"lastName": "😬",
+				"xNumber": "😬",
+				"email": "noah.😬@stjohns.edu",
+				"phone": "😬",
+				"schedule": {
+					"SUNDAY": "4:40pm - 5:40pm",
+					"MONDAY": "6:00pm - 7:00pm",
+					"TUESDAY": "4:45pm - 5:45pm",
+					"WEDNESDAY": "6:00pm - 7:00pm",
+					"THURSDAY": "4:45pm - 5:45pm",
+					"FRIDAY": "6:00pm - 7:00pm",
+					"SATURDAY": "4:40pm - 5:40pm"
+				}
+			}
+		},
+		{
+			"member": {
+				"firstName": "Sam",
+				"lastName": "😬",
+				"xNumber": "😬",
+				"email": "samuel.😬@stjohns.edu",
+				"phone": "😬",
+				"schedule": {
+					"SUNDAY": "4:40pm - 5:40pm",
+					"MONDAY": "11:45am - 12:45pm",
+					"TUESDAY": "3:30pm - 4:30pm",
+					"WEDNESDAY": "",
+					"THURSDAY": "11:45am - 12:45pm",
+					"FRIDAY": "8:00am - 9:00am",
+					"SATURDAY": ""
+				}
+			}
+		},
+		{
+			"member": {
+				"firstName": "Logan",
+				"lastName": "😬",
+				"xNumber": "😬",
+				"email": "logan.😬@my.stjohns.edu",
+				"phone": "😬",
+				"schedule": {
+					"SUNDAY": "",
+					"MONDAY": "",
+					"TUESDAY": "1:00pm - 2:00pm",
+					"WEDNESDAY": "8:30pm - 9:30pm",
+					"THURSDAY": "8:30pm - 9:30pm",
+					"FRIDAY": "",
+					"SATURDAY": ""
+				}
+			}
+		}
+	]
+}
